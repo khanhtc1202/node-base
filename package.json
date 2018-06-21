@@ -1,0 +1,22 @@
+{
+  "name": "node-mvc",
+  "version": "0.0.1",
+  "description": "simple mvc for nodejs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khanhtc1202/node-base.git"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "khanhtc1202",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "http": "0.0.0",
+    "util": "^0.10.3"
+  }
+}
