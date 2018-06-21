@@ -12,5 +12,5 @@ require('./config/routes')(app, bootstrap, utils);
 
 // Start server
 app.listen(config.port, function() {
-    console.log('Server running on 127.0.0.1:', config.port);
+    console.log('Server running on http://127.0.0.1:%d', config.port);
 });
